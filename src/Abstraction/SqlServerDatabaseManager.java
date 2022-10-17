@@ -1,3 +1,4 @@
+package Abstraction;
 public class SqlServerDatabaseManager extends BaseDatabaseManager{
 
     public void getData(){

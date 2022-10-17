@@ -1,10 +1,12 @@
-public class OracleDatabaseManager extends BaseDatabaseManager{
+package Abstraction;
+public class MySqlDatabaseManager extends BaseDatabaseManager{
 
-    public void getData(){
+    
+    public void getData() {
         // Veritabanından verileri çekmek için gereken kodlar
         // Veritabanından verileri çekmek için gereken kodlar
         // Veritabanından verileri çekmek için gereken kodlar
-        System.out.println("Oracle verisi listelendi.");
+        System.out.println("Mysql verisi listelendi.");
     }
-
+    
 }
