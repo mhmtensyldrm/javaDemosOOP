@@ -6,7 +6,7 @@ public class OracleCustomerDal implements ICustomerDal{
         //Database kodları ve islemleri
         //Database kodları ve islemleri
         //Database kodları ve islemleri
-        System.out.println("Veriler MySql'e eklendi.");
+        System.out.println("Veriler Oracle veritabanına eklendi.");
     }
 
 }
