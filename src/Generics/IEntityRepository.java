@@ -1,6 +1,6 @@
 package Generics;
 
-public interface IEntityRepository<T> {
+public interface IEntityRepository<T extends IEntity> {
     void Add(T entity);
     void Update(T entity);
     void Delete(T entity);
