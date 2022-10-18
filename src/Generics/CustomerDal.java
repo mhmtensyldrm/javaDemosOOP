@@ -1,21 +1,21 @@
 package Generics;
 
-public class CustomerDal implements IEntityRepository{
+public class CustomerDal implements IEntityRepository<Customer>{
 
     @Override
-    public void Add(Object entity) {
+    public void Add(Customer entity) {
         
         
     }
 
     @Override
-    public void Update(Object entity) {
+    public void Update(Customer entity) {
         
         
     }
 
     @Override
-    public void Delete(Object entity) {
+    public void Delete(Customer entity) {
         
         
     }
